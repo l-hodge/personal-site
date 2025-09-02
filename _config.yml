@@ -5,6 +5,11 @@ logo: "/images/LH-headshot.jpg"
 description: This is a site about me...
 color-scheme: dark
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
 platforms:
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
