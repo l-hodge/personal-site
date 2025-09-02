@@ -1,12 +1,15 @@
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+
 title: Louis Hodge
 logo: "/images/LH-headshot.jpg"
-description: >
-  <br> <br>
-  This is a site about me...
-  <br> <br> <br>
-  <a href="https://www.linkedin.com/in/louis-hodge/">View My LinkedIn Profile</a> 
-  
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-plugins:
-- jekyll-remote-theme
-#google_analytics: UA-000000-0
+description: This is a site about me...
+color-scheme: dark
+
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/l-hodge
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/louis-hodge
+    
