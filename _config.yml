@@ -6,7 +6,7 @@ description: >
   <br> <br> <br>
   <a href="https://www.linkedin.com/in/louis-hodge/">View My LinkedIn Profile</a> 
   
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: BDHU/minimalist
 plugins:
 - jekyll-remote-theme
 #google_analytics: UA-000000-0
