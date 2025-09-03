@@ -12,10 +12,16 @@ plugins:
   - jekyll-remote-theme
 
 platforms:
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/l-hodge
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/louis-hodge
+  - name: Google Scholar
+    icon: <i class="fa-brands fa-google-scholar"></i>
+    link: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=qQuNQ4YAAAAJ
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/l-hodge
+  - name: X
+    icon: <i class="fa-brands fa-x-twitter"></i>
+    link: https://x.com/louis_hodge_
     
