@@ -9,3 +9,101 @@
 <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 {% include sidebar.html %}
+
+<script type="application/ld+json">
+{
+  "@graph": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Louis Hodge",
+      "givenName": "Louis",
+      "familyName": "Hodge",
+      "image": "https://l-hodge.github.io/personal-site/images/LH-headshot.jpg",
+      "url": "https://l-hodge.github.io/personal-site/",
+      "jobTitle": "Research Leader",
+      "sameAs": [
+        "https://uk.linkedin.com/in/louis-hodge",
+        "https://x.com/louis_hodge_",
+        "https://github.com/l-hodge",
+        "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=qQuNQ4YAAAAJ"
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Bristol"
+        }
+      ],
+      "worksFor": [
+        {
+          "@type": "EmployeeRole",
+          "startDate": "2025-04",
+          "roleName": "Research Leader",
+          "worksFor": {
+            "@id": "RE"
+          }
+        },
+        {
+          "@type": "EmployeeRole",
+          "startDate": "2022-12",
+          "endDate": "2024-12",
+          "roleName": "Associate Director",
+          "worksFor": {
+            "@id": "EPI"
+          }
+        },
+        {
+          "@type": "EmployeeRole",
+          "startDate": "2019-11",
+          "endDate": "2022-11",
+          "roleName": "Economist",
+          "worksFor": {
+            "@id": "DFE"
+          }
+        },
+        {
+          "@type": "EmployeeRole",
+          "startDate": "2019-01",
+          "endDate": "2019-10",
+          "roleName": "Research Assistant",
+          "worksFor": {
+            "@id": "IFS"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "RE",
+      "name": "RAND Europe",
+      "url": "https://www.rand.org/about/people/h/hodge_louis.html"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aubreyyung.com/about/#/Organization/org2",
+      "name": "Education Policy Institute",
+      "url": "https://epi.org.uk/author/lhodge/",
+      "sameAs": [
+        "EPI"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "DFE",
+      "name": "Department for Education",
+      "sameAs": [
+        "DfE"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "IFS",
+      "name": "Institute for Fiscal Studies",
+      "url": "https://ifs.org.uk/people/louis-hodge",
+      "sameAs": [
+        "IFS"
+      ]
+    }
+  ]
+}
+</script>
