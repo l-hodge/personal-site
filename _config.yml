@@ -2,7 +2,12 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 title: Louis Hodge
 logo: "/images/LH-headshot.jpg"
-description: This is a site about me...
+description: 
+  Economist. Education Policy.
+  <br>
+  Research Leader @ <a href = "https://www.rand.org/about/people/h/hodge_louis.html">RAND Europe</a>.
+  <br>
+  Formally, <a href = "https://epi.org.uk/author/lhodge/">EPI</a>, <a href = "https://www.gov.uk/government/organisations/department-for-education">DfE</a> and <a href = "https://ifs.org.uk/people/louis-hodge">IFS</a>.
 color-scheme: dark
 
 plugins:
