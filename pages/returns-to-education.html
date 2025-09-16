@@ -1,0 +1,18 @@
+---
+layout: default
+title: Returns to Education
+permalink: /returns-to-education
+---
+**[Home](/) >> Returns to Education**
+
+<h1>Returns to Education</h1>
+<p>This page lists my research on the returns to education, including estimates of the impact of educational attainment on earnings and employment outcomes. The publications are listed in reverse chronological order.</p>
+
+{% assign publications = site.returns-to-education | sort: "year" | reverse %}
+{% for pub in publications %}
+<div class="pubitem">
+  <div class="pubtitle">{{ pub.title }}</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+</div>
+{% endfor %}

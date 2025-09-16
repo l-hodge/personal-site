@@ -30,3 +30,7 @@ platforms:
     icon: <i class="fa-brands fa-x-twitter"></i>
     link: https://x.com/louis_hodge_
     
+collections:
+  returns-to-education:
+    output: true
+    permalink: /:collection/:name
