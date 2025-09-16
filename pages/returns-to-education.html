@@ -3,16 +3,22 @@ layout: default
 title: Returns to Education
 permalink: /returns-to-education
 ---
-**[Home](/) >> Returns to Education**
+<p><strong><a href=".">Home</a> &gt;&gt; Returns to Education</strong></p>
 
 <h1>Returns to Education</h1>
-<p>This page lists my research on the returns to education, including estimates of the impact of educational attainment on earnings and employment outcomes. The publications are listed in reverse chronological order.</p>
+<p>This page lists my research on the returns to education.</p>
 
 {% assign publications = site.returns-to-education | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">
   <div class="pubtitle">{{ pub.title }}</div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
+  <div class="pubinfo">{{ pub.type }}, {{ pub.number }}</div>
+  <div class="pubinst">{{ pub.institution }}, {{ pub.address}}</div>
+  <div class="pubdetail">{{ pub.isbn }} {{ pub.doi}}</div>
+  <div class="pubabstract">{{ pub.abstract }}</div>
+</div>
+<div class="publinks">
+  <a href="{{pub.url}}"><i class="fas fa-file-pdf"></i> PDF</a>
 </div>
 {% endfor %}
