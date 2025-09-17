@@ -13,12 +13,15 @@ permalink: /returns-to-education
 <div class="pubitem">
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
-  <div class="pubinfo">{{ pub.type }}, {{ pub.number }}</div>
-  <div class="pubinst">{{ pub.institution }}, {{ pub.address}}</div>
-  <div class="pubdetail">{{ pub.isbn }} {{ pub.doi}}</div>
+  <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
   <div class="pubabstract">{{ pub.abstract }}</div>
-</div>
 <div class="publinks">
   <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
+  &nbsp;&nbsp;
+  <a href="/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
+  &nbsp;&nbsp; {% if pub.doi %}
+  <a href="{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
+  {% endif %}
+</div>
 </div>
 {% endfor %}

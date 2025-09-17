@@ -1,8 +1,8 @@
 ## About me
 
-I'm an economist, data scientist and education policy expert. Most of my research focuses on topics within education and I have worked extensively with administrative data to better understand the school system in England.
+I'm an economist, data scientist and education policy expert. The primary focus of my research is using administrative data to gain novel insights into the education system in England. I am currently intrested in the intersection of education and other social issues, and using linked data to look at longer term outcomes.
 
-When I'm not doing research, I love spending time in the great outdoors (in the sunshine) and on the squash court (when it is raining). I also enjoy eating and cooking good food (you can find some of my go-to recipes <a href="https://l-hodge.github.io/recipebook/">here</a>).
+Topics of previous research includes earnings returns to school aged education, transitions to post-16, school accountability, and higher education student loan systems. Further details are below.
 
 ## Research
 
