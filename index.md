@@ -1,8 +1,8 @@
 ## About me
 
-I'm an economist, data scientist and education policy expert. The primary focus of my research is using administrative data to gain novel insights into the education system in England. I am currently intrested in the intersection of education and other social issues, and using linked data to look at longer term outcomes.
+I'm an economist, data scientist and education policy expert. The primary focus of my research is using administrative data to gain novel insights into the education system in England. I am currently intrested in the intersection of education and other social issues, and using linked data to look at long term outcomes.
 
-Topics of previous research includes earnings returns to school aged education, transitions to post-16, school accountability, and higher education student loan systems. Further details are below.
+Topics of previous research include; earnings returns to school aged education, transitions to post-16, school accountability, and higher education student loan systems. Further details are below.
 
 ## Research
 
