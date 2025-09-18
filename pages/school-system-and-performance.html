@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Returns to Education
-permalink: /returns-to-education
+title: School System and Performance
+permalink: /school-system-and-performance
 ---
-<p><strong><a href=".">Home</a> &gt;&gt; Returns to Education</strong></p>
+<p><strong><a href=".">Home</a> &gt;&gt; School System and Performance</strong></p>
 
 <h1>Returns to Education</h1>
-<p>This page lists my research on the returns to education.</p>
+<p>This page lists my research on the school system in England.</p>
 
-{% assign publications = site.returns-to-education | sort: "year" | reverse %}
+{% assign publications = site.school-system-and-performance | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">
   <div class="pubtitle">{{ pub.title }}</div>
@@ -16,7 +16,7 @@ permalink: /returns-to-education
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
   <div class="pubabstract">{{ pub.abstract }}</div>
   <div class="publinks">
-    <a href="//{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
+    <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
     <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
     &nbsp;&nbsp; {% if pub.doi %}
