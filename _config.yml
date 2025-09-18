@@ -34,3 +34,6 @@ collections:
   returns-to-education:
     output: true
     permalink: /:collection/:name
+  school-system-and-performance:
+    output: true
+    permalink: /:collection/:name
