@@ -6,7 +6,14 @@ permalink: /returns-to-education
 <p><strong><a href=".">Home</a> &gt;&gt; Returns to Education</strong></p>
 
 <h1>Returns to Education</h1>
-<p>This page lists my research on the returns to education.</p>
+<p>
+  Whilst at the Department for Education, I worked extensively on the returns to school-age qualifications. This includes producing published 
+  estimates using the 
+  <a href="https://www.gov.uk/government/publications/longitudinal-education-outcomes-leo-dataset/longitudinal-education-outcomes-leo-data">
+    Longitudinal Education Outcomes (LEO)
+  </a> 
+  data, which links administrative data held by DfE, DWP, and HMRC.
+</p>
 
 {% assign publications = site.returns-to-education | sort: "year" | reverse %}
 {% for pub in publications %}
@@ -16,7 +23,7 @@ permalink: /returns-to-education
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
   <div class="pubabstract">{{ pub.abstract }}</div>
   <div class="publinks">
-    <a href="//{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
+    <a href="{% pub.url %}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
     <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
     &nbsp;&nbsp; {% if pub.doi %}

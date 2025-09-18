@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A longer school day: the attainment benefits of an extra hour a week
+title: A longer school day{:} the attainment benefits of an extra hour a week
 authors: Louis Hodge and Oana Gavriloiu
 year: 2024
 institution: Education Policy Institute

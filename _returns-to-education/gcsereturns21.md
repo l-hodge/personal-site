@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: GCSE attainment and lifetime earnings
 authors: Louis Hodge, Allan Little, and Matthew Weldon
 year: 2021

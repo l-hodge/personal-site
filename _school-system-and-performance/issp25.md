@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Independent-State School Partnerships: A Deep Dive into the Bristol Education Partnership (BEP) and York ISSP
+title: Independent-State School Partnerships{:} A Deep Dive into the Bristol Education Partnership (BEP) and York ISSP
 authors: Louis Hodge and Helen McGlade
 year: 2025
 institution: Education Policy Institute
