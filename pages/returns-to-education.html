@@ -23,7 +23,7 @@ permalink: /returns-to-education
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
   <div class="pubabstract">{{ pub.abstract }}</div>
   <div class="publinks">
-    <a href="{% pub.url %}"><i class="fas fa-file-pdf"></i> PDF</a>
+    <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
     <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
     &nbsp;&nbsp; {% if pub.doi %}
