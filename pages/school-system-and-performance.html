@@ -6,7 +6,14 @@ permalink: /school-system-and-performance
 <p><strong><a href=".">Home</a> &gt;&gt; School System and Performance</strong></p>
 
 <h1>School System and Performance</h1>
-<p>This page lists my research on the school system in England.</p>
+
+<p>
+  This page lists my research on the school system in England.
+</p>
+
+<hr style="width: 70%;"/>
+
+<h2 style="margin-bottom: 0;">Publications</h2>
 
 {% assign publications = site.school-system-and-performance | sort: "year" | reverse %}
 {% for pub in publications %}
@@ -14,14 +21,15 @@ permalink: /school-system-and-performance
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
-  <div class="pubabstract">{{ pub.abstract }}</div>
   <div class="publinks">
-    <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
+    <a href="https://{{ pub.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
     <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
     &nbsp;&nbsp; {% if pub.doi %}
-    <a href="{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
+    <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
     {% endif %}
+    <a href="/personal-site/school-system-and-performance/{{ pub.slug }}"><i class="fas fa-arrow-right"></i> More details</a>
+    &nbsp;&nbsp;
   </div>
 </div>
 {% endfor %}

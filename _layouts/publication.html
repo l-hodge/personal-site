@@ -6,16 +6,24 @@ layout: default
   <h1 class="mt-4 publication-title">{{ page.title }}</h1>
   <div class="publication-authors">{{ page.authors }}, {{ page.year}}</div>
   <div class="publication-info">{{ page.type }} {{ page.number }}, {{ page.institution }}</div>
-  {{ content }}
-  <h2 id="downloads">Downloads</h2>
+  <div class="publication-isbn">{% if page.isbn %}ISBN: {{ page.isbn }}{% endif %}</div>
+  <div class="publication-doi">{% if page.doi %}DOI: {{ page.doi }}{% endif %}</div>
+   
+  <h2 style="margin: 0.5em 0;">Downloads</h2>
   <p>
-    <a href="{{ page.url }}"
-      ><i class="far fa-file-pdf"></i> PDF</a
-    >&nbsp;&nbsp;
-    <a href="/personal-site/download/{{ page.slug }}.bib"
-      ><i class="fas fa-file-alt"></i> BibTex</a
+    <a href="https://{{ page.pdf }}"><i class="far fa-file-pdf"></i> PDF</a
+    >&nbsp;&nbsp; {% if page.supplementary %}
+    <a href="https://{{ page.supplementary }}"><i class="fas fa-file-spreadsheet"></i> Supplementary</a
+    >&nbsp;&nbsp; {% endif %}
+    <a href="/personal-site/download/{{ page.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a
     >&nbsp;&nbsp; {% if page.doi %}
-    <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a
+    <a href="https://doi.org/{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a
+    >&nbsp;&nbsp; {% endif %} {% if page.landing %}
+    <a href="https://{{ page.landing }}"><i class="fas fa-arrow-right"></i> Landing Page</a
     >&nbsp;&nbsp; {% endif %}
   </p>
+
+  <h2 style="margin: 0.5em 0;">Summary</h2>
+  <div class="publication-abstract">{{ page.abstract }}</div>
+  {{ content }}
 </div>

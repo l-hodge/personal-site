@@ -8,13 +8,17 @@ Topics of previous research include; earnings returns to school-age qualificatio
 
 <div class="card">
   <h3>Returns to Education</h3>
-  <p>This project...</p>
+  <p>
+    I have produced several estimates of the earnings returns to school-age qualifications, and advised extensively on their use in economic appraisal.
+  </p>
   <a href="https://l-hodge.github.io/personal-site/returns-to-education"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
   <h3>School System and Performance</h3>
-  <p>This project...</p>
+  <p>
+    I have conducted research on many elements of the school system in England.
+  </p>
   <a href="https://l-hodge.github.io/personal-site/school-system-and-performance"><span class="card-link-spanner"></span></a>
 </div>
 

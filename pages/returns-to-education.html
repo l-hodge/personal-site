@@ -6,6 +6,7 @@ permalink: /returns-to-education
 <p><strong><a href=".">Home</a> &gt;&gt; Returns to Education</strong></p>
 
 <h1>Returns to Education</h1>
+
 <p>
   Whilst at the Department for Education (DfE), I worked extensively on the 
   returns to school-age qualifications. This primarily used the
@@ -14,18 +15,18 @@ permalink: /returns-to-education
   </a> 
   dataset, which links administrative data held by DfE, DWP, and HMRC. 
   Published work includes estimates of the associations between
-  <a href="/personal-site/gcse-attainment-and-lifetime-earnings-2021">
+  <a href="/personal-site/returns-to-education/gcse-attainment-and-lifetime-earnings-2021">
     GCSE attainment and lifetime earnings,
   </a>
   and 
-  <a href="/personal-site/ks2-attainment-early-labour-market-outcomes-2023">
+  <a href="/personal-site/returns-to-education/ks2-attainment-early-labour-market-outcomes-2023">
     KS2 attainment and early labour market outcomes.
   </a>
 </p>
 <p>
   These estimates are used internally at DfE to support economic appraisal 
   of programmes and policies. To aid this, I wrote the 
-  <a href="/personal-site/schools-policy-appraisal-handbook-2021">
+  <a href="/personal-site/returns-to-education/schools-policy-appraisal-handbook-2021">
     schools policy appraisal handbook,
   </a> 
   an <i>unofficial</i> 
@@ -38,16 +39,18 @@ permalink: /returns-to-education
   As well as producing a range of economic appraisals internally at DfE, 
   I published two worked examples of using returns estimates to calculate the 
   economic benefits of 
-  <a href="/personal-site/economic-benefits-effective-reception-2023">
+  <a href="/personal-site/returns-to-education/economic-benefits-effective-reception-2023">
     effective reception classes
   </a>
   and
-  <a href="/personal-site/economic-benefits-white-paper-2022">
+  <a href="/personal-site/returns-to-education/economic-benefits-white-paper-2022">
     meeting the ambitions set out in the 2022 Schools White Paper.
   </a>
 </p>
 
-<h3>Publications</h3>
+<hr style="width: 70%;"/>
+
+<h2 style="margin-bottom: 0;">Publications</h2>
 
 {% assign publications = site.returns-to-education | sort: "year" | reverse %}
 {% for pub in publications %}
@@ -56,13 +59,13 @@ permalink: /returns-to-education
   <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
   <div class="publinks">
-    <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
+    <a href="https://{{ pub.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
     <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
     &nbsp;&nbsp; {% if pub.doi %}
-    <a href="{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
+    <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
     {% endif %}
-    <a href="/personal-site/{{ pub.slug }}"><i class="fas fa-arrow-right"></i> More details</a>
+    <a href="/personal-site/returns-to-education/{{ pub.slug }}"><i class="fas fa-arrow-right"></i> More details</a>
     &nbsp;&nbsp;
   </div>
 </div>
