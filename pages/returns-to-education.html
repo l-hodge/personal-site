@@ -7,13 +7,46 @@ permalink: /returns-to-education
 
 <h1>Returns to Education</h1>
 <p>
-  Whilst at the Department for Education, I worked extensively on the returns to school-age qualifications. This includes producing published 
-  estimates using the 
+  Whilst at the Department for Education (DfE), I worked extensively on the 
+  returns to school-age qualifications. This primarily used the
   <a href="https://www.gov.uk/government/publications/longitudinal-education-outcomes-leo-dataset/longitudinal-education-outcomes-leo-data">
     Longitudinal Education Outcomes (LEO)
   </a> 
-  data, which links administrative data held by DfE, DWP, and HMRC.
+  dataset, which links administrative data held by DfE, DWP, and HMRC. 
+  Published work includes estimates of the associations between
+  <a href="/personal-site/gcse-attainment-and-lifetime-earnings-2021">
+    GCSE attainment and lifetime earnings,
+  </a>
+  and 
+  <a href="/personal-site/ks2-attainment-early-labour-market-outcomes-2023">
+    KS2 attainment and early labour market outcomes.
+  </a>
 </p>
+<p>
+  These estimates are used internally at DfE to support economic appraisal 
+  of programmes and policies. To aid this, I wrote the 
+  <a href="/personal-site/schools-policy-appraisal-handbook-2021">
+    schools policy appraisal handbook,
+  </a> 
+  an <i>unofficial</i> 
+  <a href="https://www.gov.uk/government/collections/the-green-book-and-accompanying-guidance-and-documents">
+    Green Book
+  </a>
+  supplement and the first DfE guidance on how to use returns estimates in appraisal.
+</p>
+<p>
+  As well as producing a range of economic appraisals internally at DfE, 
+  I published two worked examples of using returns estimates to calculate the 
+  economic benefits of 
+  <a href="/personal-site/economic-benefits-effective-reception-2023">
+    effective reception classes
+  </a>
+  and
+  <a href="/personal-site/economic-benefits-white-paper-2022">
+    meeting the ambitions set out in the 2022 Schools White Paper.
+  </a>
+</p>
+
 
 {% assign publications = site.returns-to-education | sort: "year" | reverse %}
 {% for pub in publications %}
@@ -21,7 +54,6 @@ permalink: /returns-to-education
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
   <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
-  <div class="pubabstract">{{ pub.abstract }}</div>
   <div class="publinks">
     <a href="{{ pub.url }}"><i class="fas fa-file-pdf"></i> PDF</a>
     &nbsp;&nbsp;
@@ -29,6 +61,8 @@ permalink: /returns-to-education
     &nbsp;&nbsp; {% if pub.doi %}
     <a href="{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
     {% endif %}
+    <a href="/personal-site/{{ pub.slug }}"><i class="fas fa-arrow-right"></i> More details</a>
+    &nbsp;&nbsp;
   </div>
 </div>
 {% endfor %}

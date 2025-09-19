@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: Key Stage 2 attainment and early labour market outcomes
 authors: Louis Hodge
 year: 2023
