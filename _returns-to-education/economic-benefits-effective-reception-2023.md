@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: The economic benefits of effective Reception classes in England
 authors: Allan Little, Louis Hodge, and Peter Tymms
 year: 2023

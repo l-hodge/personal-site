@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: publication
 title: Schools Policy Appraisal Handbook
 authors: Louis Hodge, Allan Little, and Matthew Weldon
 year: 2021
