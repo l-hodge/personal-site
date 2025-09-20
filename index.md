@@ -11,7 +11,7 @@ Topics of previous research include; earnings returns to school-age qualificatio
   <p>
     I have produced several estimates of the earnings returns to school-age qualifications, and advised extensively on their use in economic appraisal.
   </p>
-  <a href="https://l-hodge.github.io/personal-site/returns-to-education"><span class="card-link-spanner"></span></a>
+  <a href="/personal-site/returns-to-education"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
@@ -19,23 +19,23 @@ Topics of previous research include; earnings returns to school-age qualificatio
   <p>
     I have conducted research on many elements of the school system in England.
   </p>
-  <a href="https://l-hodge.github.io/personal-site/school-system-and-performance"><span class="card-link-spanner"></span></a>
+  <a href="/personal-site/school-system-and-performance"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
   <h3>Commentary on Education Policy</h3>
   <p>This project...</p>
-  <a href="https://l-hodge.github.io/personal-site/commentary"><span class="card-link-spanner"></span></a>
+  <a href="/personal-site/commentary"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
   <h3>Higher Education Student Finance Systems</h3>
   <p>This project...</p>
-  <a href="https://l-hodge.github.io/personal-site/student-loans"><span class="card-link-spanner"></span></a>
+  <a href="/personal-site/student-loans"><span class="card-link-spanner"></span></a>
 </div>
 
 <div class="card">
   <h3>Research on other topics</h3>
   <p>This project...</p>
-  <a href="https://l-hodge.github.io/personal-site/other-research"><span class="card-link-spanner"></span></a>
+  <a href="/personal-site/other-research"><span class="card-link-spanner"></span></a>
 </div>
