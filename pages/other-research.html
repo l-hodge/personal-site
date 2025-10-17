@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /other-research
+---
+<p><strong><a href=".">Home</a> &gt; Research on other topics</strong></p>
+
+<h1>Local government</h1>
+
+<hr style="width: 70%;"/>
+
+<h2 style="margin-bottom: 0;">Publications</h2>
+
+{% assign publications = site.other-research | sort: "year" | reverse %}
+{% for pub in publications %}
+<div class="pubitem">
+  <div class="pubtitle">{{ pub.title }}</div>
+  <div class="pubauthors">{{ pub.authors }}, {{ pub.year }}</div>
+  <div class="pubinfo">{{ pub.type }} {{ pub.number }}, {{ pub.institution }}</div>
+  <div class="publinks">
+    <a href="https://{{ pub.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>
+    &nbsp;&nbsp;
+    <a href="/personal-site/download/{{ pub.slug }}.bib"><i class="fas fa-file-alt"></i> BibTex</a>
+    &nbsp;&nbsp; {% if pub.doi %}
+    <a href="https://doi.org/{{ pub.doi }}"><i class="fas fa-external-link"></i> DOI</a>
+    {% endif %}
+    <a href="/personal-site/other-research/{{ pub.slug }}"><i class="fas fa-arrow-right"></i> More details</a>
+    &nbsp;&nbsp;
+  </div>
+</div>
+{% endfor %}

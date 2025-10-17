@@ -29,11 +29,23 @@ platforms:
   - name: X
     icon: <i class="fa-brands fa-x-twitter"></i>
     link: https://x.com/louis_hodge_
-    
+
+author: Louis Hodge
+url: https://l-hodge.github.io/personal-site/
+social:
+  name: Louis Hodge
+  links:
+    - https://x.com/louis_hodge_
+    - https://github.com/l-hodge
+    - https://www.linkedin.com/in/louis-hodge
+
 collections:
   returns-to-education:
     output: true
     permalink: /:collection/:name
   school-system-and-performance:
+    output: true
+    permalink: /:collection/:name
+  other-research:
     output: true
     permalink: /:collection/:name
