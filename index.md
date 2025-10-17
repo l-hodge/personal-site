@@ -36,6 +36,6 @@ Topics of previous research include; earnings returns to school-age qualificatio
 
 <div class="card">
   <h3>Research on other topics</h3>
-  <p>This project...</p>
+  <p>I have conducted other research on non-education topics.</p>
   <a href="/personal-site/other-research"><span class="card-link-spanner"></span></a>
 </div>

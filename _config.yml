@@ -5,16 +5,16 @@ logo: "/images/LH-headshot.jpg"
 description: 
   Economist. Education Policy.
   <br>
-  Research Leader @ <a href = "https://www.rand.org/about/people/h/hodge_louis.html">RAND Europe</a>.
+  Research Leader @ <a href = "https://www.rand.org/about/people/h/hodge_louis.html" rel="noopener noreferrer">RAND Europe</a>.
   <br>
-  Formally, <a href = "https://epi.org.uk/author/lhodge/">EPI</a>, <a href = "https://www.gov.uk/government/organisations/department-for-education">DfE</a> and <a href = "https://ifs.org.uk/people/louis-hodge">IFS</a>.
+  Formally, <a href = "https://epi.org.uk/author/lhodge/" rel="noopener noreferrer">EPI</a>, <a href = "https://www.gov.uk/government/organisations/department-for-education" rel="noopener noreferrer">DfE</a> and <a href = "https://ifs.org.uk/people/louis-hodge" rel="noopener noreferrer">IFS</a>.
 color-scheme: dark
 
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 platforms:
   - name: LinkedIn
